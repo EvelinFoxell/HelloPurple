@@ -32,6 +32,11 @@ body, html {
 	height: 100%;
 }
 
+.headercontent {
+	height: 10em;
+	width: 100%;
+}
+
 .creator {
 	text-align: right;
 	display: inline-block;
@@ -40,11 +45,11 @@ body, html {
 }
 
 .purple {
-	display: inline-block;
-	width: 25%;
-	height: 10em;
 	margin: 0;
 	padding: 0;
+	width: 25%;
+	height: 10em;
+	float: left;
 }
 
 .one {
