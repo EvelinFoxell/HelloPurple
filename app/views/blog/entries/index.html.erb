@@ -3,9 +3,9 @@
 <% if @entries.count < 1 %>
 	<p>There's gonna be some entries going up here soon!</p>
 <% else %>
-	<%= @entries.each do |entry| %>
-		<h3>entry.title</h3>
-		<p>entry.body</p>
-		<p>entry.created_at</p>
+	<% @entries.each do |entry| %>
+		<h3><%= entry.title %></h3>
+		<p><%= entry.body %></p>
+		<p><em>Created at: <%= entry.created_at.to_s[0, 19] %></em></p>
 	<% end %>
 <% end %>

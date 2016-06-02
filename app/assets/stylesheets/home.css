@@ -3,6 +3,9 @@ body, html {
 	height: 100%;
 	background-color: #D9CCDE;
 }
+textarea {
+	padding-top: 0.5em;
+}
 
 #header {
 	flex: 0 1 auto;
