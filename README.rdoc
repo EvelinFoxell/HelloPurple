@@ -16,7 +16,11 @@ This is a small Ruby on Rails application to celebrate my new job at Purple Scou
 
 === System dependencies
 
+# TBD
+
 === Configuration
+
+# TBD
 
 === Database creation
 
