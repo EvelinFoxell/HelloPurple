@@ -1,0 +1,64 @@
+body, html {
+	margin: 0;
+	height: 100%;
+	background-color: #D9CCDE;
+}
+
+#header {
+	flex: 0 1 auto;
+}
+
+#content {
+	flex: 1 1 auto;
+	color: #43064F;
+	background-color: white;
+	width: 55em;
+	padding: 2em;
+	position: relative;
+	margin: 0 auto;
+}
+
+#footer {
+	bottom: 0;
+	width: 100%;
+	color: #c390d4;
+	flex: 0 1 5em;
+}
+
+.wrapper {
+	flex: 0 1 10em;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.creator {
+	text-align: right;
+	display: inline-block;
+	float: right;
+	margin: 1em;
+}
+
+.purple {
+	display: inline-block;
+	width: 25%;
+	height: 10em;
+	margin: 0;
+	padding: 0;
+}
+
+.one {
+	background-color: #c390d4;
+}
+
+.two {
+	background-color: #8c3ea8;
+}
+
+.three {
+	background-color: #A818C4;
+}
+
+.four {
+	background-color: #43064F;
+}

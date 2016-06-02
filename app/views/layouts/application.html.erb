@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello Purple</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="wrapper">
+		<div id="header"><div class="purple one"></div><div class="purple two"></div><div class="purple three"></div><div class="purple four"></div></div>
+		<div id="content">
+			<%= yield %>
+		</div>
+		<div id="footer"><div class="creator">Made by Evelin Foxell 2016</div></div>
+	</div>
+</body>
+</html>
